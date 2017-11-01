@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="Result.xsl"?>
+<TestSuite EndTime="09-30-2014 15:18:59" StartTime="09-30-2014 15:17:21"
+	TF="0" TP="1" TotalTestCases="1">
+	<Functionality name="CBDT">
+		<TestScript EndTime="09-30-2014 15:18:59" StartTime="09-30-2014 15:17:21"
+			TC_Status="Pass" name="CBDT_CASH_TC1">
+			<Iterator no="0">
+				<step no="1">
+					<status>Pass</status>
+					<stepname>Login to Finacle application with valid maker credentials
+					</stepname>
+					<Description>Sucessfully logged in to finacle application with
+						maker credentials</Description>
+					<timestamp>09-30-2014 15:17:21</timestamp>
+				</step>
+				<step no="2">
+					<status>Pass</status>
+					<stepname> Navigate to GBM from finacle</stepname>
+					<Description>Government Business Modulepage is displayed
+					</Description>
+					<timestamp>09-30-2014 15:17:43</timestamp>
+				</step>
+				<step no="3">
+					<status>Pass</status>
+					<stepname> Navigate to create transaction page.</stepname>
+					<Description>Transaction Maintenance page is opened to create new
+						transaction.</Description>
+					<timestamp>09-30-2014 15:17:46</timestamp>
+				</step>
+				<step no="4">
+					<status>Pass</status>
+					<stepname>Create transaction.</stepname>
+					<Description>Transaction created successfully.Transaction Created
+						Successfully! TranId - GBM26909
+
+						* Note - Same Amount is entered today for the same PAN/TAN. Please
+						Check it
+					</Description>
+					<timestamp>09-30-2014 15:18:03</timestamp>
+				</step>
+				<step no="5">
+					<status>Pass</status>
+					<stepname>Logout from application</stepname>
+					<Description>Maker has successfully logged out from application
+					</Description>
+					<timestamp>09-30-2014 15:18:05</timestamp>
+				</step>
+				<step no="6">
+					<status>Pass</status>
+					<stepname>Login to Finacle application with valid checker
+						credentials</stepname>
+					<Description>Sucessfully logged in to finacle application with
+						checker credentials</Description>
+					<timestamp>09-30-2014 15:18:14</timestamp>
+				</step>
+				<step no="7">
+					<status>Pass</status>
+					<stepname> Navigate GBM from finacle</stepname>
+					<Description>Government Business Modulepage is displayed
+					</Description>
+					<timestamp>09-30-2014 15:18:36</timestamp>
+				</step>
+				<step no="8">
+					<status>Pass</status>
+					<stepname> Navigate to create transaction page.</stepname>
+					<Description>Transaction Maintenance page is opened to create new
+						transaction.</Description>
+					<timestamp>09-30-2014 15:18:41</timestamp>
+				</step>
+				<step no="9">
+					<status>Pass</status>
+					<stepname>Validate the Transaction Id</stepname>
+					<Description>The Challan Number is 47. Tran Id GBM26909 verified
+						successfully and Finacle Tran Id is S36345679 and the Finacle Tran
+						Status is Y</Description>
+					<timestamp>09-30-2014 15:18:49</timestamp>
+				</step>
+				<step no="10">
+					<status>Pass</status>
+					<stepname>Logout from application</stepname>
+					<Description>User successfully logged out from application
+					</Description>
+					<timestamp>09-30-2014 15:18:59</timestamp>
+				</step>
+			</Iterator>
+		</TestScript>
+	</Functionality>
+</TestSuite>

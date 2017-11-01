@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="Result.xsl"?>
+<TestSuite EndTime="10-01-2014 11:55:49" StartTime="10-01-2014 11:53:32"
+	TF="1" TP="0" TotalTestCases="1">
+	<Functionality name="CBDT">
+		<TestScript EndTime="10-01-2014 11:55:49" StartTime="10-01-2014 11:53:32"
+			TC_Status="Fail" name="CBDT_CLEAR_TC3">
+			<Iterator no="0">
+				<step no="1">
+					<status>Pass</status>
+					<stepname>Login to Finacle application with valid maker credentials
+					</stepname>
+					<Description>Sucessfully logged in to finacle application with
+						maker credentials</Description>
+					<timestamp>10-01-2014 11:53:32</timestamp>
+				</step>
+				<step no="2">
+					<status>Pass</status>
+					<stepname>Get the Instrument id from application</stepname>
+					<Description>Unused Instrument id is:573620</Description>
+					<timestamp>10-01-2014 11:54:13</timestamp>
+				</step>
+				<step no="3">
+					<status>Fail</status>
+					<stepname>Create a Zone for Clear transaction </stepname>
+					<Description>Failed to create zone. Error Message:Timed out after
+						40 seconds waiting for visibility of element located by By.xpath:
+						//table[@calss='errortableborder']//tr[@class='alert']
+						Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03
+						17:42:03'
+						System info: host: '10X-D-Hymavathi', ip: '10.33.169.65', os.name:
+						'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version:
+						'1.7.0_55'
+						Driver info: driver.version: unknownContext SOL modified successfully.
+					</Description>
+					<timestamp>10-01-2014 11:55:46</timestamp>
+				</step>
+				<step no="4">
+					<status>Pass</status>
+					<stepname>Logout from application</stepname>
+					<Description>User successfully logged out from application
+					</Description>
+					<timestamp>10-01-2014 11:55:49</timestamp>
+				</step>
+			</Iterator>
+		</TestScript>
+	</Functionality>
+</TestSuite>

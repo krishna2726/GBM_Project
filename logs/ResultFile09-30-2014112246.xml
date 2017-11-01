@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="Result.xsl"?>
+<TestSuite EndTime="09-30-2014 11:27:59" StartTime="09-30-2014 11:22:46"
+	TF="2" TP="1" TotalTestCases="3">
+	<Functionality name="StateTax">
+		<TestScript EndTime="09-30-2014 11:22:46" StartTime="09-30-2014 11:22:46"
+			TC_Status="Pass" name="StateTax_PhysicalTransaction_Mohali_TC1">
+			<Iterator no="0">
+				<step no="1">
+					<status>Pass</status>
+					<stepname>Logout from application</stepname>
+					<Description>User successfully logged out from application
+					</Description>
+					<timestamp>09-30-2014 11:22:46</timestamp>
+				</step>
+			</Iterator>
+		</TestScript>
+		<TestScript EndTime="09-30-2014 11:27:04" StartTime="09-30-2014 11:24:20"
+			TC_Status="Fail" name="StateTax_PhysicalTransaction_Punjab_TC2">
+			<Iterator no="0">
+				<step no="1">
+					<status>Pass</status>
+					<stepname>Login to Finacle application with valid maker credentials
+					</stepname>
+					<Description>Sucessfully logged in to finacle application with
+						maker credentials</Description>
+					<timestamp>09-30-2014 11:24:20</timestamp>
+				</step>
+				<step no="2">
+					<status>Pass</status>
+					<stepname> Navigate to GBM from finacle</stepname>
+					<Description>Government Business Modulepage is displayed
+					</Description>
+					<timestamp>09-30-2014 11:24:39</timestamp>
+				</step>
+				<step no="3">
+					<status>Pass</status>
+					<stepname> Navigate to create transaction page.</stepname>
+					<Description>Transaction Maintenance page is opened to create new
+						transaction.</Description>
+					<timestamp>09-30-2014 11:24:42</timestamp>
+				</step>
+				<step no="4">
+					<status>Fail</status>
+					<stepname>Failed to create a Transaction</stepname>
+					<Description>Transaction creation failed. Error Message:Transaction
+						Details Cannot be inserted</Description>
+					<timestamp>09-30-2014 11:27:02</timestamp>
+				</step>
+				<step no="5">
+					<status>Pass</status>
+					<stepname>Logout from application</stepname>
+					<Description>User successfully logged out from application
+					</Description>
+					<timestamp>09-30-2014 11:27:04</timestamp>
+				</step>
+			</Iterator>
+		</TestScript>
+		<TestScript EndTime="09-30-2014 11:27:59" StartTime="09-30-2014 11:27:59"
+			TC_Status="Fail" name="StateTax_PhysicalTransaction_Chhatishgarh_TC3">
+			<Iterator no="0">
+				<step no="1">
+					<status>Fail</status>
+					<stepname>Login to Finacle application with valid Maker credentials
+					</stepname>
+					<Description>Unable to login. Error Message: Transaction Details
+						Cannot be insertedLogin page is not visible</Description>
+					<timestamp>09-30-2014 11:27:59</timestamp>
+				</step>
+			</Iterator>
+		</TestScript>
+	</Functionality>
+</TestSuite>

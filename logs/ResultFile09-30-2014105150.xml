@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="Result.xsl"?>
+<TestSuite EndTime="09-30-2014 10:55:05" StartTime="09-30-2014 10:51:50"
+	TF="2" TP="0" TotalTestCases="2">
+	<Functionality name="StateTax">
+		<TestScript EndTime="09-30-2014 10:54:10" StartTime="09-30-2014 10:51:50"
+			TC_Status="Fail" name="StateTax_PhysicalTransaction_AP_TC9">
+			<Iterator no="0">
+				<step no="1">
+					<status>Pass</status>
+					<stepname>Login to Finacle application with valid maker credentials
+					</stepname>
+					<Description>Sucessfully logged in to finacle application with
+						maker credentials</Description>
+					<timestamp>09-30-2014 10:51:50</timestamp>
+				</step>
+				<step no="2">
+					<status>Pass</status>
+					<stepname> Navigate to GBM from finacle</stepname>
+					<Description>State Tax Selectionpage is displayed</Description>
+					<timestamp>09-30-2014 10:52:14</timestamp>
+				</step>
+				<step no="3">
+					<status>Pass</status>
+					<stepname> Navigate to create transaction page.</stepname>
+					<Description>Transaction Maintenance page is opened to create new
+						transaction.</Description>
+					<timestamp>09-30-2014 10:52:19</timestamp>
+				</step>
+				<step no="4">
+					<status>Pass</status>
+					<stepname>Create transaction.</stepname>
+					<Description>Transaction created successfully.Transaction Details
+						Inserted Successfully. State Tax TranId - SST26878</Description>
+					<timestamp>09-30-2014 10:52:44</timestamp>
+				</step>
+				<step no="5">
+					<status>Pass</status>
+					<stepname>Logout from application</stepname>
+					<Description>Maker has successfully logged out from application
+					</Description>
+					<timestamp>09-30-2014 10:52:46</timestamp>
+				</step>
+				<step no="6">
+					<status>Pass</status>
+					<stepname>Login to Finacle application with valid checker
+						credentials</stepname>
+					<Description>Sucessfully logged in to finacle application with
+						checker credentials</Description>
+					<timestamp>09-30-2014 10:52:55</timestamp>
+				</step>
+				<step no="7">
+					<status>Pass</status>
+					<stepname> Navigate GBM from finacle</stepname>
+					<Description>Government Business Modulepage is displayed
+					</Description>
+					<timestamp>09-30-2014 10:53:12</timestamp>
+				</step>
+				<step no="8">
+					<status>Pass</status>
+					<stepname> Navigate to create transaction page.</stepname>
+					<Description>Transaction Maintenance page is opened to create new
+						transaction.</Description>
+					<timestamp>09-30-2014 10:53:14</timestamp>
+				</step>
+				<step no="9">
+					<status>Fail</status>
+					<stepname>Failed to validate the transaction</stepname>
+					<Description>Transaction validation failed. Error
+						Message:Transaction Details Cannot be Verified. BC_ERROR - THE
+						ACCOUNT IS IN DEBIT BALANCE .. NOT ALLOWED[S3600 Transaction
+						Unsuccessful</Description>
+					<timestamp>09-30-2014 10:54:03</timestamp>
+				</step>
+				<step no="10">
+					<status>Pass</status>
+					<stepname>Logout from application</stepname>
+					<Description>User successfully logged out from application
+					</Description>
+					<timestamp>09-30-2014 10:54:10</timestamp>
+				</step>
+			</Iterator>
+		</TestScript>
+		<TestScript EndTime="09-30-2014 10:55:05" StartTime="09-30-2014 10:55:05"
+			TC_Status="Fail" name="StateTax_PhysicalTransaction_TG_TC10">
+			<Iterator no="0">
+				<step no="1">
+					<status>Fail</status>
+					<stepname>Login to Finacle application with valid Maker credentials
+					</stepname>
+					<Description>Unable to login. Error Message: Transaction Details
+						Cannot be Verified. BC_ERROR - THE ACCOUNT IS IN DEBIT BALANCE ..
+						NOT ALLOWED[S3600 Transaction UnsuccessfulLogin page is not
+						visible</Description>
+					<timestamp>09-30-2014 10:55:05</timestamp>
+				</step>
+			</Iterator>
+		</TestScript>
+	</Functionality>
+</TestSuite>

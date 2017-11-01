@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="Result.xsl"?>
+<TestSuite EndTime="10-01-2014 15:34:51" StartTime="10-01-2014 15:28:24"
+	TF="0" TP="1" TotalTestCases="1">
+	<Functionality name="CBDT">
+		<TestScript EndTime="10-01-2014 15:34:51" StartTime="10-01-2014 15:28:24"
+			TC_Status="Pass" name="CBDT_EOD">
+			<Iterator no="0">
+				<step no="1">
+					<status>Pass</status>
+					<stepname>Login to Finacle application with valid maker credentials
+					</stepname>
+					<Description>Sucessfully logged in to finacle application with
+						maker credentials</Description>
+					<timestamp>10-01-2014 15:28:24</timestamp>
+				</step>
+				<step no="2">
+					<status>Pass</status>
+					<stepname> Navigate GBM from finacle</stepname>
+					<Description>CBDTpage is displayed</Description>
+					<timestamp>10-01-2014 15:28:56</timestamp>
+				</step>
+				<step no="3">
+					<status>Pass</status>
+					<stepname> Get EOD transaction</stepname>
+					<Description />
+					<timestamp>10-01-2014 15:34:43</timestamp>
+				</step>
+				<step no="4">
+					<status>Pass</status>
+					<stepname>Logout from application</stepname>
+					<Description>User successfully logged out from application
+					</Description>
+					<timestamp>10-01-2014 15:34:51</timestamp>
+				</step>
+			</Iterator>
+		</TestScript>
+	</Functionality>
+</TestSuite>

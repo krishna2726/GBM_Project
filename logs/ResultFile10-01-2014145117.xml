@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="Result.xsl"?>
+<TestSuite EndTime="10-01-2014 14:52:28" StartTime="10-01-2014 14:51:17"
+	TF="1" TP="0" TotalTestCases="1">
+	<Functionality name="CBDT">
+		<TestScript EndTime="10-01-2014 14:52:28" StartTime="10-01-2014 14:51:17"
+			TC_Status="Fail" name="CBDT_CLEAR_TC3">
+			<Iterator no="0">
+				<step no="1">
+					<status>Pass</status>
+					<stepname>Login to Finacle application with valid maker credentials
+					</stepname>
+					<Description>Sucessfully logged in to finacle application with
+						maker credentials</Description>
+					<timestamp>10-01-2014 14:51:17</timestamp>
+				</step>
+				<step no="2">
+					<status>Pass</status>
+					<stepname>Get the Instrument id from application</stepname>
+					<Description>Unused Instrument id is:573620</Description>
+					<timestamp>10-01-2014 14:51:32</timestamp>
+				</step>
+				<step no="3">
+					<status>Fail</status>
+					<stepname>Create a Zone for Clear transaction </stepname>
+					<Description>Failed to create zone. Error Message: 004 - Record
+						already exists</Description>
+					<timestamp>10-01-2014 14:52:26</timestamp>
+				</step>
+				<step no="4">
+					<status>Pass</status>
+					<stepname>Logout from application</stepname>
+					<Description>User successfully logged out from application
+					</Description>
+					<timestamp>10-01-2014 14:52:28</timestamp>
+				</step>
+			</Iterator>
+		</TestScript>
+	</Functionality>
+</TestSuite>
